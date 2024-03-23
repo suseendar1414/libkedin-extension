@@ -74,3 +74,4 @@ These scripts provide a convenient way to build and manage your extension, and c
 This boilerplate provides a basic structure for creating a Chrome Extension with Manifest 3. It includes the necessary files and folder structure to get started quickly, and you can customize it as per your needs.
 
 
+# libkedin-extension
