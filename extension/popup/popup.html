@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Popup Window</title>
+<style>
+  /* CSS styles for your popup */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  .popup {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .close {
+    float: right;
+    cursor: pointer;
+  }
+  .popup-content h2 {
+    font-size: 24px; /* Adjust the font size for header */
+  }
+  .popup-content p {
+    font-size: 20px; /* Adjust the font size for paragraph */
+  }
+  /* Button styling */
+  #btn-tracker {
+    background-color: #969c96; /* Green */
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.2rem 0;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+  #btn-tracker:hover {
+    background-color: #45a049; /* Darker green */
+  }
+</style>
+</head>
+<body>
+  <div class="popup">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <h2>Hello, Everyone!</h2>
+    <p>This is a Linkedin Tracker.</p>
+    <button id="btn-tracker">Track the applied jobs</button>
+  </div>
+
+  <script>
+    // JavaScript function to close the popup
+    function closePopup() {
+      window.close(); // This will close the popup window
+    }
+  </script>
+</body>
+</html>
